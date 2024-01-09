@@ -32,7 +32,7 @@ int main() {
     int arregloEnteros[] = {64, 25, 12, 22, 11};
     int nEnteros = sizeof(arregloEnteros) / sizeof(arregloEnteros[0]);
 
-    std::cout << "Arreglo original (enteros): ";
+    std::cout << "Arreglo original 5 (enteros): ";
     imprimirArreglo(arregloEnteros, nEnteros);
     bubbleSort(arregloEnteros, nEnteros);
     std::cout << "Arreglo ordenado (enteros): ";
